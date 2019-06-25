@@ -13,7 +13,7 @@ while read oldrev newrev refname; do
 
    msg=`git show $newrev -s --format=%B`
 
-   if [[ $msg =~ ^(feat|fix|test|refactor|docs|style|chroe)\(.*\):.*$ ]]; then
+   if [[ $msg =~ ^(feat|fix|test|refactor|docs|style|chroe).*:.*$ ]]; then
         echo "【commit message 通过检查】!"
    else
    echo "【commit message 不符合规范】"      
