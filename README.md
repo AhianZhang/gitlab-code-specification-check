@@ -17,7 +17,8 @@ pre-receive 的默认位置在  ``/opt/gitlab/embedded/service/gitlab-shell/hook
 - [x] git commit message 规范检测
 
 - [x] code 规范检测
-- [] js 规范（可以使用 eslint 自己改一下脚本）
+
+- [ ] js 规范（可以使用 eslint 自己改一下脚本）
 
 [阮一峰 git commit message 介绍](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 [PMD包配合GitLab提升团队代码质量](https://www.jianshu.com/p/b87ca8615c9c)
