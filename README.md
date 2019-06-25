@@ -13,7 +13,7 @@
 
 pre-receive 的默认位置在  ``/opt/gitlab/embedded/service/gitlab-shell/hooks`` 下，具体的可以查看 gitlab 的配置。
 
-将 gitlab 中的 pre-receive 替换成本仓库中的 pre-receice，修改其中的 JAVA 位置和 p3c jar包的位置，其他的不需要动
+将 gitlab 中的 pre-receive 替换成本仓库中的 pre-receice，修改其中的 JAVA 位置和 p3c jar包的位置，以及用'【】'括起来的提示语，其他的不需要动
 
 # 功能
 
